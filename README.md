@@ -1,1 +1,1 @@
-Live: https://dorunewsgrid.netlify.app/
+live: https://dorunewsgrid.netlify.app/

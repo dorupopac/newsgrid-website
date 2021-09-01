@@ -34,7 +34,7 @@ ul {
 }
 
 p {
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 img {
@@ -122,7 +122,7 @@ h6 {
   color: #fff;
 }
 .bg-secondary {
-  background: var(--dark-color);
+  background: var(--secondary-color);
   color: #fff;
 }
 
@@ -140,7 +140,6 @@ h6 {
 .bg-secondary {
   color: #fff;
 }
-
 
 .py-1 {
   padding: 1.5rem 0;
@@ -161,8 +160,12 @@ h6 {
   padding: 3rem;
 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 .list li {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   border-bottom: #555 dotted 1px;
   width: 90%;
 }
@@ -180,7 +183,7 @@ h6 {
 }
 
 .page-container > *:first-child {
-  grid-row: 1 / span 3
+  grid-row: 1 / span 3;
 }
 
 /* Navigation */
@@ -286,6 +289,18 @@ h6 {
   grid-column: 2 / span 2;
 }
 
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-bottom: 0;
+}
+
 /* Footer */
 #main-footer {
   background: var(--dark-color);
@@ -309,15 +324,15 @@ h6 {
 #main-footer .footer-container > *:last-child {
   background: #444;
   grid-column: 1 / span 4;
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: center;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 #main-footer .footer-container input[type='email'] {
   width: 90%;
-  padding: .5rem;
-  margin-bottom: .5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 #main-footer .footer-container input[type='submit'] {

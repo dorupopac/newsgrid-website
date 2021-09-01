@@ -22,6 +22,9 @@ body {
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
   background-color: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 a {
@@ -305,6 +308,7 @@ h6 {
 #main-footer {
   background: var(--dark-color);
   color: #fff;
+  margin-top: auto;
 }
 
 #main-footer img {
